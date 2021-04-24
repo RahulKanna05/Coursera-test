@@ -5,6 +5,8 @@
 }
 
 	body{
+		font-family: courier new;
+		font-weight: bold;
 }
 
 h1{
@@ -15,9 +17,58 @@ h1{
 }
 
 .container{
-	border: 1px solid black;
-	margin: 10px;
+	border: 4px solid black;
+	margin: 20px;
 	margin-bottom: 20px;
 	background-color: gray;
 	font-size: 24px;
+}
+
+#chicken{
+	border-bottom: 4px solid black;
+	border-left: 4px solid black;
+	text-align: center;
+	width: 40%;
+	height: 30px;
+	float: right;
+	margin-bottom: 20px;
+	background-color: pink;
+	font-weight: bold;
+}
+
+#beef{
+	border-bottom: 4px solid black;
+	border-left: 4px solid black;
+	text-align: center;
+	width: 40%;
+	height: 30px;
+	float: right;
+	margin-bottom: 20px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+}
+
+#sushi{
+	border-bottom: 4px solid black;
+	border-left: 4px solid black;
+	text-align: center;
+	width: 40%;
+	height: 30px;
+	float: right;
+	margin-bottom: 20px;
+	background-color: yellow;
+	font-weight: bold;
+}
+
+#p1{
+	clear: right;
+}
+
+#p2{
+	clear: right;
+}
+
+#p3{
+	clear: right;
 }
