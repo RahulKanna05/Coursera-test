@@ -1,0 +1,111 @@
+*{
+	font-family: courier new;
+	font-weight: bold;
+}
+
+#header-nav{
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	margin-left: 0px;
+	background-color: #A9A9A9;
+}
+
+#header-nav .navbar-brand{
+	font-size: 58px;
+	padding-left: 20px;i
+}
+
+#header-nav button.navbar-toggler
+{
+	border: 3px solid black;
+}
+
+#header-nav button.navbar-toggler>.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='20' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#header-nav button.navbar-toggler:hover {
+	border: 3px solid white;
+}
+
+#header-nav button.navbar-toggler>.navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='20' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#header-nav>.container-fluid>#dropdown-menu{
+	/*background-color: #D3D3D3;
+	margin: 0 11px -8px -11px;
+	width: 100%;*/
+}
+
+#navbarSupportedContent{
+	background-color: #D3D3D3;
+	border: 2px solid black;
+	width: 100%;
+}
+
+#header-nav .container-fluid #navbarSupportedContent hr{
+	background-color: black;
+	height: 2px;
+}
+
+#header-nav .container-fluid #navbarSupportedContent a{
+	font-size: 24px;
+	color: black;
+}
+
+body>.container-fluid{
+	padding: 0 20px 20px 20px;
+}
+
+body>.container-fluid>.container-fluid
+{
+	background-color: #A9A9A9;
+}
+#heading
+{
+	margin-bottom: 30px;
+	font-size: 80px;
+}
+
+#content-container
+{
+	padding: 0 20px 20px 20px;
+}
+
+#content-heading
+{
+	font-size: 45px;
+}
+
+#content
+{
+	font-size: 22px;
+}
+
+@media (min-width: 576px) 
+{
+    .collapsed
+	{
+       display: none !important;
+   	}
+}
+
+@media (max-width: 576px) 
+{
+	#header-nav .navbar-brand{
+	margin-top: 15px;
+	font-size: 38px;
+	margin-bottom: 10px;
+}
+
+	#heading
+	{
+	font-size: 60px;
+	}
+
+	#content-heading
+	{
+	font-size: 35px;
+	}
+}
